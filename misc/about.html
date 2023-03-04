@@ -5,48 +5,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>About</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
   </head>
   
   <body>
-    <header>
-      <h1>About</h1>
+    <header class="form-header">
+      <h1>About</h1>      
       <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../profile.html">Profile</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>          
-        </ul>
+        <a href="../index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
       </nav>
-    </header>
-    <aside>
-      <img src="../images/about.jpeg" alt="A starry banner">
-      <hr />
-    </aside>
-    
-    <article>
+    </header>   
+    <form action="/server/" method="get" class="speaker-form">
       <section>
-        <h2>About this page</h2>
-        <ul>
-          <li>This page is a <strong>project</strong> that I assign myself to know how much I <em>learned</em> about web development.</li>
-          <li>I will constantly update this <strong>page</strong> every time I <em>learn</em> new things about web development.</li>          
-        </ul>
-        
+        <div class="form-row">    
+          <h2>About this page</h2>
+          <ul>
+            <li>This page is a <strong>project</strong> that I assign myself to know how much I <em>learned</em> about web development.</li>
+            <li>I will constantly update this <strong>page</strong> every time I <em>learn</em> new things about web development.</li>          
+          </ul>          
+        </div>
       </section>
-    </article>
-    
+    </form>    
     <footer>
       <hr />
       <p>
         Regards, <br />By &copy;Aczeal14. Published <time datetime="2023-3-3">March 3rd</time>
       </p>
+      <hr />
       <address>
-        Please contact <a href="mailto:hi.gaczeal@gmail.com">Joshua Modar</a> for question about this article.
+        Please contact <a href="mailto:hi.gaczeal@gmail.com">me</a> for question about this page.
       </address>
-      <p>
-     <hr />
-     P.S this page may look like crap, but I'll fix that with some CSS soon.
-      </p>
-    </footer>
+    </footer>     
   </body>
 </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang=en>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Profile</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <header class="form-header">
+      <h1>Profile</h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>  
+    <form action="/server/" method="get" class="speaker-form">
+      <div class="form-row">            
+        <figure>
+          <img src="https://z-m-scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-1/277223905_143665288167271_2651596302627373510_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=109&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=X3SDxkiOHVUAX-JsPue&_nc_ad=z-m&_nc_cid=1119&_nc_eh=cc06e367806054d5e1936116d4c842ea&_nc_rml=0&_nc_ht=z-m-scontent.fceb1-2.fna&oh=00_AfCpT0qaskYUeiQl3t4HnNxuuCiUe8OpAxImaGNRuQ0DTw&oe=64086B0D" alt="An image of the owner">
+        </figure>
+        <hr />       
+        <section>
+          <p><b>Name: </b>Joshua Modar</p>
+          <p><b>User: </b>Aczeal</p>
+          <p><b>Email: </b>gaczeal@gmail.com</p>
+          <p><b>Phone: </b>09663571356</p>
+        </section>
+        <hr />
+        <section>
+          <h4>About Me:</h4>
+          <p>Hi, my name is Joshua Modar and I'm a web developer based in Philippines. I love coding, playing guitar, and riding in my free time.</p>
+        </section>      
+        <hr />      
+        <section>
+          <h4>My Contact</h4>
+          <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="name@example.com" required/>
+          </div>
+          <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>            
+          </div>
+          <div class="form-row">
+            <button type="send">Send Message</button>
+          </div>
+        </section>
+      </div>
+    </form>
+    <footer>       
+      <hr />
+      <p>
+        Regards, <br />By &copy;Aczeal14. Published <time datetime="2023-3-3">March 3rd</time>
+      </p>             
+    </footer>
+  </body>
+</html>
